@@ -8,22 +8,29 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    
+    @IBOutlet weak var idLabel: UILabel!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var userNameLabel: UILabel!
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    
+    
+    
+    
+    var userDetailsContainer : User?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        bindData()
+        
+    }
+    func bindData(){
+        self.idLabel.text = userDetailsContainer?.id.description.codingKey.stringValue
+        self.nameLabel.text = userDetailsContainer?.name.description.codingKey.stringValue
+        self.userNameLabel.text = userDetailsContainer?.username.description.codingKey.stringValue
+        self.emailLabel.text = userDetailsContainer?.email.description.codingKey.stringValue
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

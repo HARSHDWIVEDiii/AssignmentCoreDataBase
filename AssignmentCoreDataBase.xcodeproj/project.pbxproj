@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041779D62B56A2C800548353 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041779D52B56A2C800548353 /* UserModel.swift */; };
 		04324C3B2B56488C00CE944A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324C3A2B56488C00CE944A /* AppDelegate.swift */; };
 		04324C3D2B56488C00CE944A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324C3C2B56488C00CE944A /* SceneDelegate.swift */; };
 		04324C3F2B56488C00CE944A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04324C3E2B56488C00CE944A /* ViewController.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041779D52B56A2C800548353 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		04324C372B56488C00CE944A /* AssignmentCoreDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentCoreDataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04324C3A2B56488C00CE944A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04324C3C2B56488C00CE944A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				04324C3C2B56488C00CE944A /* SceneDelegate.swift */,
 				04324C3E2B56488C00CE944A /* ViewController.swift */,
 				04324C5B2B564A0200CE944A /* User.swift */,
-				041779D52B56A2C800548353 /* UserModel.swift */,
 				04324C572B56494500CE944A /* CollectionViewCell.swift */,
 				04324C582B56494500CE944A /* CollectionViewCell.xib */,
 				04324C402B56488C00CE944A /* Main.storyboard */,
@@ -167,7 +164,6 @@
 				04324C5C2B564A0200CE944A /* User.swift in Sources */,
 				04324C562B56492C00CE944A /* DetailViewController.swift in Sources */,
 				04324C3D2B56488C00CE944A /* SceneDelegate.swift in Sources */,
-				041779D62B56A2C800548353 /* UserModel.swift in Sources */,
 				04324C542B5648CB00CE944A /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

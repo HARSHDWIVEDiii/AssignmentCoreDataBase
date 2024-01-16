@@ -123,7 +123,11 @@ class ViewController: UIViewController {
     }
     
 extension ViewController : UICollectionViewDelegate{
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let detailViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        detailViewController.userDetailsContainer = usersArray[indexPath.item]
+        navigationController?.pushViewController(detailViewController, animated: true)
+    }
 }
 
 extension ViewController : UICollectionViewDataSource{

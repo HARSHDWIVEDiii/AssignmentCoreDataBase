@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct User: Codable {
+struct User{
     let id: Int
     let name: String
     let username: String
@@ -17,7 +17,7 @@ struct User: Codable {
     let company: Company
 }
 
-struct Address: Codable {
+struct Address {
     let street: String
     let suite: String
     let city: String
@@ -25,12 +25,12 @@ struct Address: Codable {
     let geo: Geo
 }
 
-struct Geo: Codable {
+struct Geo {
     let lat: String
     let lng: String
 }
 
-struct Company: Codable {
+struct Company{
     let name: String
     let catchPhrase: String
     let bs: String
